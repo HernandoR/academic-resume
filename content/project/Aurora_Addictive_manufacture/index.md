@@ -1,15 +1,22 @@
 ---
 title: Full color FDM 3D Printer with Machine Learning Feedback
-summary: An example of using the in-built project page.
+summary: |-
+  - Implemented colour control algorithms;
+  - Implemented the control system based on an STM32 chip;
+  - Received First Prize in “The Challenge Cup” (National)
+
 tags:
-  - Deep Learning
-date: '2019-04-27'
+  - Computer vision
+  - STM32
+  - Embedded
+  - 3D Printing
+date: '2020-05-27'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Photo of Product
   focal_point: Smart
 
 # links:
@@ -30,6 +37,17 @@ url_video: ''
 # slides: example
 ---
 
+# Related Outputs and Honors
+
+## Patents
+![2021203691825_一种带有测试平台的彩色3D打印机](Patents/实用新型专利证书_2021203691825_一种带有测试平台的彩色3D打印机_20211102_00.jpg)
+![2020113091413_一种可搭载摄像头的多进一出3D打印混色喷头](Patents/发明专利证书_一种可搭载摄像头的多进一出3D打印混色喷头.png)
+
+<!-- <figure class="half">
+  <img src="Patents/实用新型专利证书_2021203691825_一种带有测试平台的彩色3D打印机_20211102_00.jpg" alt="2021203691825_一种带有测试平台的彩色3D打印机" width=200" />
+  <img src="Patents/发明专利证书_一种可搭载摄像头的多进一出3D打印混色喷头.png" alt="2020113091413_一种可搭载摄像头的多进一出3D打印混色喷头" width=200" />
+</figure> -->
+
 # 1. 引言
 
 3D打印技术，也被称为快速成型技术，是中国的战略需求之一，《中国国民经济和社会发展第十四个五年计划和2035远景目标》指出，“发展增材制造”。随着单色3D打印技术的成熟，全彩3D打印技术已逐渐成为新的技术发展趋势。
@@ -39,6 +57,7 @@ url_video: ''
 本作品是基于机器视觉反馈的FDM（Fused Deposition Modeling 熔融沉积成型）全彩3D打印机。它以数字模型文件为基础，运用多色丝线状金属或塑料等可熔融材料，通过熔融混合再逐层打印的方式来构造色彩丰富的彩色物体。
 
 本作品的硬件设计包括一种主动式多进一出混合喷头、测试平台等；软件设计包括“CMYG”混色法、色彩控制软件、基于机器视觉反馈的色差校准系统等，系统组成如图2.1所示。
+
 
 ![](https://i.z31.ink/2/pic2.1.png)
 

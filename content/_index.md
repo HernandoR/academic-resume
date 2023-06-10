@@ -49,8 +49,12 @@ sections:
       filters:
         folders:
           - project
+        
+        exclude_tags: ["Demo"]
       # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
       default_button_index: 0
+      sort_by: 'Date'
+      sort_ascending: false
       # Filter toolbar (optional).
       # Add or remove as many filters (`filter_button` instances) as you like.
       # To show all items, set `tag` to "*".
@@ -59,8 +63,10 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
+        - name: Machine Learning
+          tag: Machine Learning
+        - name: Embedded
+          tag: Embedded
         - name: Other
           tag: Demo
     design:
@@ -71,6 +77,7 @@ sections:
       flip_alt_rows: false
 
   - block: experience
+    id: experience
     content:
       title: Experience
       # Date format for experience
@@ -105,6 +112,7 @@ sections:
           description: Taught electronic engineering and researched semiconductor physics.
     design:
       css_class: dark
+      columns: '2'
       background:
         color: black
         image:
@@ -159,9 +167,9 @@ sections:
       view: article-grid
       columns: 1
   - block: collection
-    id: news
+    id: posts
     content:
-      title: Recent News
+      title: Recent Posts
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
