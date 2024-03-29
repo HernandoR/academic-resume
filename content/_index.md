@@ -6,37 +6,37 @@ type: landing
 
 sections:
   # https://wowchemy.com/blocks/
-  - block: hero
-    content:
-      title: Lz's Site
-      # image:
-      #   filename: hero-academic.png
-      # cta:
-      #   label: '**Get Started**'
-      #   url: https://wowchemy.com/templates/
-      # cta_alt:
-      #   label: Ask a question
-      #   url: https://discord.gg/z8wNYzb
-      cta_note:
-        label: >-
-          Sorry for the uncompleted translation if you encountered
+  # - block: hero
+  #   content:
+  #     title: Lz's Site
+  #     # image:
+  #     #   filename: hero-academic.png
+  #     # cta:
+  #     #   label: '**Get Started**'
+  #     #   url: https://wowchemy.com/templates/
+  #     # cta_alt:
+  #     #   label: Ask a question
+  #     #   url: https://discord.gg/z8wNYzb
+  #     cta_note:
+  #       label: >-
+  #         Sorry for the uncompleted translation if you encountered
 
-        # label: >-
-        #   <div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/wowchemy-hugo-themes" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Wowchemy Website Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/starter-hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div>
-      text: |-
-        Hi there
+  #       # label: >-
+  #       #   <div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/wowchemy-hugo-themes" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Wowchemy Website Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/starter-hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div>
+  #     text: |-
+  #       Hi there
 
-        Welcome to my site.
+  #       Welcome to my site.
 
-        You can download my resume up in the menu
+  #       You can download my resume up in the menu
 
-        Since you are here, take a look on the projects section, it is well organized
+  #       Since you are here, take a look on the projects section, it is well organized
 
-    design:
-      background:
-        gradient_end: '#1976d2'
-        gradient_start: '#004ba0'
-        text_color_light: true
+  #   design:
+  #     background:
+  #       gradient_end: '#1976d2'
+  #       gradient_start: '#004ba0'
+  #       text_color_light: true
 
   - block: about.biography
     id: about
