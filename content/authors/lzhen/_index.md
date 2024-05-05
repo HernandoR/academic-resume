@@ -39,6 +39,57 @@ education:
     - course: BEng in Electronical Information Technology
       institution: Wuhan University of Science and Technology
       year: 2018-2022
+# Skills
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+skills:
+  - name: Programming
+    items:
+    - name: Python
+      description: Expert
+      percent:
+      icon: python
+      icon_pack: fab
+    - name: Rust
+      description: Experienced
+      percent:
+      icon: rust
+      icon_pack: fab
+    - name: Matlab
+      description: Expert
+      icon: matlab
+      icon_pack: custom
+  - name: Machine Learning
+    items:
+    - name: PyTorch
+      description: Experienced
+      percent:
+      icon: pytorch
+      icon_pack: custom
+    - name: Linux
+      description: Expert
+      percent:
+      icon: linux
+      icon_pack: fab
+  # - name: Other basics
+  #   items:
+  #   - name: docker
+  #     description: Experienced
+  #     percent:
+  #     icon: docker
+  #     icon_pack: fab
+  #   - name: algorithm
+  #     description: Experienced
+  #     icon: subscript
+  #     icon_pack: fas
+  - name: Languages
+    items: 
+    - name: Chinese
+      description: Naive
+      percent:
+    - name: English
+      description: Professional
+      percent:
+
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
