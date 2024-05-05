@@ -13,34 +13,24 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: lzhen
-  # - block: features
+  - block: skills
+    content:
+      title: Skills
+      text: ''
+      # Choose a user to display skills from (a folder name within `content/authors/`)
+      username: lzhen
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '2'
+      # view: showcase
+      # # For Showcase view, flip alternate rows?
+      # flip_alt_rows: false
+  # - block: resume-languages
   #   content:
-  #     title: Skills
-  #     items:
-  #       - name: Python
-  #         description: Expert
-  #         icon: python
-  #         icon_pack: fab
-  #       - name: Linux
-  #         description: Expert
-  #         icon: linux
-  #         icon_pack: fab
-  #       - name: Matlab
-  #         description: Expert
-  #         icon: matlab
-  #         icon_pack: custom
-  #       - name: docker
-  #         description: Experienced
-  #         icon: docker
-  #         icon_pack: fab
-  #       - name: algorithm
-  #         description: Experienced
-  #         icon: subscript
-  #         icon_pack: fas
-  #       - name: PyTorch
-  #         description: Experienced
-  #         icon: pytorch
-  #         icon_pack: custom
+  #     title: Languages
+  #     # Note: `username` refers to the user's folder name in `content/authors/`
+  #     username: lzhen
+
 
   # - block: portfolio
   #   id: projects
@@ -69,12 +59,12 @@ sections:
   #         tag: Embedded
   #       - name: Other
   #         tag: Demo
-    design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
-      view: showcase
-      # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
+    # design:
+    #   # Choose how many columns the section has. Valid values: '1' or '2'.
+    #   columns: '1'
+    #   view: showcase
+    #   # For Showcase view, flip alternate rows?
+    #   flip_alt_rows: false
 
   - block: experience
     id: experience
