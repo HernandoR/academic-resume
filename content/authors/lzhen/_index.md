@@ -35,7 +35,7 @@ education:
   courses:
     - course: MSc in Electronics
       institution: Nanyang Technological University
-      year: 2022-2023
+      year: 2022-2024
     - course: BEng in Electronical Information Technology
       institution: Wuhan University of Science and Technology
       year: 2018-2022

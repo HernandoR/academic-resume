@@ -13,62 +13,62 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: lzhen
-  - block: features
-    content:
-      title: Skills
-      items:
-        - name: Python
-          description: Expert
-          icon: python
-          icon_pack: fab
-        - name: Linux
-          description: Expert
-          icon: linux
-          icon_pack: fab
-        - name: Matlab
-          description: Expert
-          icon: matlab
-          icon_pack: custom
-        - name: docker
-          description: Experienced
-          icon: docker
-          icon_pack: fab
-        - name: algorithm
-          description: Experienced
-          icon: subscript
-          icon_pack: fas
-        - name: PyTorch
-          description: Experienced
-          icon: pytorch
-          icon_pack: custom
+  # - block: features
+  #   content:
+  #     title: Skills
+  #     items:
+  #       - name: Python
+  #         description: Expert
+  #         icon: python
+  #         icon_pack: fab
+  #       - name: Linux
+  #         description: Expert
+  #         icon: linux
+  #         icon_pack: fab
+  #       - name: Matlab
+  #         description: Expert
+  #         icon: matlab
+  #         icon_pack: custom
+  #       - name: docker
+  #         description: Experienced
+  #         icon: docker
+  #         icon_pack: fab
+  #       - name: algorithm
+  #         description: Experienced
+  #         icon: subscript
+  #         icon_pack: fas
+  #       - name: PyTorch
+  #         description: Experienced
+  #         icon: pytorch
+  #         icon_pack: custom
 
-  - block: portfolio
-    id: projects
-    content:
-      title: Projects
-      filters:
-        folders:
-          - project
+  # - block: portfolio
+  #   id: projects
+  #   content:
+  #     title: Projects
+  #     filters:
+  #       folders:
+  #         - project
         
-        exclude_tags: ["Demo"]
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-      default_button_index: 0
-      sort_by: 'Date'
-      sort_ascending: false
-      # Filter toolbar (optional).
-      # Add or remove as many filters (`filter_button` instances) as you like.
-      # To show all items, set `tag` to "*".
-      # To filter by a specific tag, set `tag` to an existing tag name.
-      # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Machine Learning
-          tag: Machine Learning
-        - name: Embedded
-          tag: Embedded
-        - name: Other
-          tag: Demo
+  #       exclude_tags: ["Demo"]
+  #     # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+  #     default_button_index: 0
+  #     sort_by: 'Date'
+  #     sort_ascending: false
+  #     # Filter toolbar (optional).
+  #     # Add or remove as many filters (`filter_button` instances) as you like.
+  #     # To show all items, set `tag` to "*".
+  #     # To filter by a specific tag, set `tag` to an existing tag name.
+  #     # To remove the toolbar, delete the entire `filter_button` block.
+  #     buttons:
+  #       - name: All
+  #         tag: '*'
+  #       - name: Machine Learning
+  #         tag: Machine Learning
+  #       - name: Embedded
+  #         tag: Embedded
+  #       - name: Other
+  #         tag: Demo
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
@@ -81,7 +81,7 @@ sections:
     content:
       title: Experience
       # Date format for experience
-      #   Refer to https://wowchemy.com/docs/customization/#date-format
+      #   Refer to https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
       # Experiences.
       #   Add/remove as many `experience` items below as you like.
@@ -113,8 +113,7 @@ sections:
     design:
       css_class: dark
       columns: '2'
-      background:
-        color: black
+      background:        color: black
         image:
           # Add your image background to `assets/media/`.
           filename: stacked-peaks.svg
@@ -276,7 +275,7 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Please kindly use the Subject for uour purpose
+        Please kindly use the Subject for your purpose
       # Contact (add or remove contact options as necessary)
       email: zliu046@e.ntu.edu.sg
       phone: +86 156 7119 0677  |  +65 8884 3589
@@ -291,7 +290,11 @@ sections:
       # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       # office_hours:
       #   - 'Monday 10:00 to 13:00'
-      # #   - 'Wednesday 09:00 to 10:00'
+      #   - 'Wednesday 09:00 to 10:00'
+      # Choose a map provider in `params.yaml` to show a map from these coordinates
+      coordinates:
+        latitude: '37.4275'
+        longitude: '-122.1697'  
       # contact_links:
       #   - icon: twitter
       #     icon_pack: fab
