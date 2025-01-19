@@ -9,7 +9,7 @@ summary: |-
 tags:
   - Mathematical modeling
   - RNN
-date: '2021-04-226'
+date: '2021-04-26'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''

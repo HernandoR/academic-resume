@@ -383,8 +383,8 @@ Here are some examples using the `icon` shortcode to render icons:
 
 renders as
 
-{{< icon name="terminal" pack="fas" >}} Terminal  
+<!-- {{< icon name="terminal" pack="fas" >}} Terminal   -->
 {{< icon name="python" pack="fab" >}} Python  
-{{< icon name="r-project" pack="fab" >}} R
+<!-- {{< icon name="r-project" pack="fab" >}} R -->
 
 ### Did you find this page helpful? Consider sharing it 🙌
